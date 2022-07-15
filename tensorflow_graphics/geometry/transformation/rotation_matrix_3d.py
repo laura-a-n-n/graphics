@@ -131,7 +131,7 @@ def from_axis_angle(
     axis: A tensor of shape `[A1, ..., An, 3]`, where the last dimension
       represents a normalized axis.
     angle: A tensor of shape `[A1, ..., An, 1]`, where the last dimension
-      represents a normalized axis.
+      represents an angle in radians.
     name: A name for this op that defaults to
       "rotation_matrix_3d_from_axis_angle".
 
